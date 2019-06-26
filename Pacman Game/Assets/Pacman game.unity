@@ -1753,6 +1753,7 @@ GameObject:
   - component: {fileID: 1059317776}
   - component: {fileID: 1059317780}
   - component: {fileID: 1059317779}
+  - component: {fileID: 1059317781}
   m_Layer: 0
   m_Name: pacman
   m_TagString: Untagged
@@ -1837,7 +1838,7 @@ Transform:
   m_GameObject: {fileID: 1059317775}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 14, y: 14, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.955, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 2
@@ -1879,3 +1880,16 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.95
+--- !u!114 &1059317781
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1059317775}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9304d13f14c1878468da656bd119cc9b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 0.4
